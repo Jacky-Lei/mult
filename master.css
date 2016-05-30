@@ -1,0 +1,25 @@
+.tab-links li {
+  display: inline-block;
+  margin: 0 5px;
+  background: red;
+  padding: 9px 12px;
+  color: yellow;
+  border-radius: 5px 5px 0 0;
+}
+
+li.active {
+  background-color: pink;
+  transition: all linear 0.85s;
+}
+
+a {
+  color: green;
+}
+
+.tab {
+  display: none;
+}
+
+.active {
+  display: block;
+}
